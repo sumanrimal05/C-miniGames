@@ -1,0 +1,11 @@
+# Ignore the Makefile
+Makefile
+
+# Ignore compiled executables (assuming they have no file extension)
+# If your executable has a specific name, replace '*' with the name, e.g., 'guessTheNumber'
+guessTheNumber
+
+# Ignore any additional temporary files generated during builds
+*.o
+*.out
+*.exe
